@@ -1,0 +1,13 @@
+{
+  "name": "nest-microservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:user": "npm run start:dev --prefix user",
+    "start:email": "npm run start:dev --prefix email"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
